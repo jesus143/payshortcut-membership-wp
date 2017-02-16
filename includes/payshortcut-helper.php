@@ -25,7 +25,7 @@ function curlPostRequest($postData, $url)
     curl_close($ch);
 
     // do anything you want with your response
-    var_dump($response);
+    //    var_dump($response);
 
     return json_decode($response, true);
 }

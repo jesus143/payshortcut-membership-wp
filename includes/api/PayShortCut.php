@@ -53,7 +53,7 @@ class PayShortCut {
      */
     public static function createOrder($postOrder)
     {
-        $order = curlPostRequest($postOrder, self::$endPoint . 'api/member/create' );
+        $order = curlPostRequest($postOrder, self::$endPoint . 'api/order/create' );
         return $order;
     }
 
