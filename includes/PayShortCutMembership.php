@@ -17,10 +17,9 @@ class PayShortCutMembership
 		// print "<br> running....";
 	}
 	public function define_files()
-	{
+	{	
+		require_once ( ABSPATH . 'wp-includes/link-template.php' );
 		require_once ( ABSPATH . 'wp-content/plugins/payshortcut-membership/includes/payshortcut-helper.php' );
-		require_once ( ABSPATH . 'wp-content/plugins/payshortcut-membership/includes/api/PayShortCut.php' );
-
-
+		require_once ( ABSPATH . 'wp-content/plugins/payshortcut-membership/includes/api/PayShortCut.php' ); 
 	}
 }

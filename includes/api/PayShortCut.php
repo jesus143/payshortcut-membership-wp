@@ -5,7 +5,9 @@ class PayShortCut {
 
     protected static $endPoint = 'http://localhost/rocky/payshortcut.net/';
 
-    function __construct(){ }
+    function __construct(){  
+        self::$endPoint =  'http://payshortcut.net/'; 
+    }
 
     /**
      * @param $postMember
